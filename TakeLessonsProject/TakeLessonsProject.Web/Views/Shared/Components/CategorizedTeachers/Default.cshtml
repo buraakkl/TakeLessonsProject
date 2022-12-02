@@ -1,0 +1,14 @@
+﻿@model List<StateOfEducationsLevel>
+
+
+
+
+<div class="list-group">
+    <a class='list-group-item list-group-item-action @(ViewBag.SelectedEducationLevel==null ? "active" : "")'
+       asp-controller="Teacher" asp-action="List" asp-route-educationLevel="">All Education Levels</a>
+    @foreach (var educationsLevel in Model)
+    {
+        <a class="list-group-item list-group-item-action @(ViewBag.SelectedEducationLevel==educationsLevel.Name ? "active" : "") "
+       asp-controller="Teacher" asp-action="List" asp-route-educationLevel=@educationsLevel.Name>@educationsLevel.Name</a>
+    }
+</div>

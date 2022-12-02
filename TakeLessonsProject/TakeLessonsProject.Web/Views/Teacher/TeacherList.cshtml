@@ -1,0 +1,82 @@
+﻿@model List<Teacher>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+@foreach (var teacher in Model)
+{
+    <section>
+        <div class="container">
+            @*<div class="container py-5 h-100">*@
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col col-md-9 col-lg-7 col-xl-5">
+                    <div class="card" style="border-radius: 10px; background-color: cornflowerblue;">
+                        <div class="card-body  text-black">
+                            <div>
+                                <p class="">  Üyelik Tarihi @teacher.DateOfRegistration.Month @teacher.DateOfRegistration.Year  </p>
+                                <div class="d-flex align-items-center  mb-3">
+                                    <p class="small fw-bold mb-0 me-4"> @teacher.Branch.Name</p>
+                                    <p class="fw-bold mb-0"> 🕑 $ @teacher.HourlyPrice </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="flex-shrink-0">
+                                    <img src="~/images/forguson.jpeg"
+                                     alt="Generic placeholder image" class="img-fluid rounded-circle border border-dark border-3"
+                                     style="width: 70px;">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <div class="d-flex flex-row align-items-center mb-2">
+                                        <p class="mb-0 me-2"> @teacher.FirstName @teacher.LastName</p>
+                                        @*    <ul class="mb-0 list-unstyled d-flex flex-row" style="color: #1B7B2C;">
+                                    <li>
+                                    <i class="fas fa-star fa-xs"></i>
+                                    </li>
+                                    <li>
+                                    <i class="fas fa-star fa-xs"></i>
+                                    </li>
+                                    <li>
+                                    <i class="fas fa-star fa-xs"></i>
+                                    </li>
+                                    <li>
+                                    <i class="fas fa-star fa-xs"></i>
+                                    </li>
+                                    <li>
+                                    <i class="fas fa-star fa-xs"></i>
+                                    </li>
+                                    </ul>*@
+                                    </div>
+                                    <div>
+                                        <button type="button" class="btn btn-outline-dark btn-rounded btn-sm"
+                                            data-mdb-ripple-color="dark">
+                                            @teacher.Locations
+                                        </button>
+                                                                                <button type="button" class="btn btn-outline-dark btn-floating btn-sm"
+                                            data-mdb-ripple-color="dark">
+                                            <i class="fas fa-comment"> buton</i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <p class="my-4 pb-1"> @teacher.Description</p>
+                            <button type="button" class="btn btn-success btn-rounded btn-block btn-lg">
+                                <i class="far fa-clock me-2"></i>  Mesaj Gönder 💬
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+}
+
+
+
+
+
+
+

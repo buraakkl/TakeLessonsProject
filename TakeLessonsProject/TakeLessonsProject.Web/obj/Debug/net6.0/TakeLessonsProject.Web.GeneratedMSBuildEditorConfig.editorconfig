@@ -1,0 +1,112 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TakeLessonsProject.Web
+build_property.RootNamespace = TakeLessonsProject.Web
+build_property.ProjectDir = C:\Users\asus\Desktop\Bau Bright Project\30.11.2022\BAU Bright Project\TakeLessonsProject\TakeLessonsProject.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\asus\Desktop\Bau Bright Project\30.11.2022\BAU Bright Project\TakeLessonsProject\TakeLessonsProject.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Admin/AdminPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5QYW5lbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Admin/StudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3R1ZGVudExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Admin/TeacherCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGVhY2hlckNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Admin/TeacherEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGVhY2hlckVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Admin/TeacherList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGVhY2hlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Admin/UserProfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlclByb2ZpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Shared/Components/CategorizedTeachers/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcml6ZWRUZWFjaGVyc1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Shared/_NavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Shared/_NoTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob1RlYWNoZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Shared/_Student.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Shared/_Teacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UZWFjaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/StateOfEducationsLevel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVPZkVkdWNhdGlvbnNMZXZlbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Teacher/HowItWorks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxIb3dJdFdvcmtzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Teacher/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Teacher/TeacherDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxUZWFjaGVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Teacher/TeacherList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxUZWFjaGVyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/Bau Bright Project/30.11.2022/BAU Bright Project/TakeLessonsProject/TakeLessonsProject.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jvaqwj3av8

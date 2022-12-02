@@ -1,0 +1,67 @@
+﻿@*Bu partialView'i sadece bir öğretmeni listelemek için oluşturdum.*@
+@model Teacher
+
+<link rel="stylesheet" href="~/css//teacher..css" asp-append-version="true" />
+
+
+
+
+<div class="col-6">
+    <section class="mx-auto mb-5" style="max-width: 23rem;">
+        <div class="card testimonial-card mb-3" style="height: 400px">
+            <div class="card-up aqua-gradient"></div>
+            <div class="avatar mx-auto white">
+                <img src="~/images/@Model.Image" class="img-fluid">
+            </div>
+            <div class="card-body text-center">
+                <h4 class="card-title font-weight-bold">@Model.FirstName @Model.LastName</h4>
+
+                <hr>
+                <p>
+                    <i class="fas fa-quote-left"></i>@Model.Description 
+                </p>
+                <p>
+                    <i class="fas fa-quote-left"></i> @Model.Locations - @Model.HourlyPrice $
+                </p>
+         @*       <p>
+                    <i class="fas fa-quote-left"></i>@(Model.IsFaceToFace ? "Is Face To Face: Yes" : "Is Face To Face: No")
+                </p>*@
+                <a class="btn btn-sm btn-success" asp-controller="Teacher" asp-action="TeacherDetails" asp-route-url=@Model.Url>Contact Us</a>
+            </div>
+        </div>
+
+    </section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

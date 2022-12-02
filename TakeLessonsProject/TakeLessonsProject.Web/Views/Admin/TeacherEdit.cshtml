@@ -1,0 +1,125 @@
+﻿@model TeacherWithCategoriesModel
+
+<h1>Details/Edit Teacher </h1>
+<hr />
+<form asp-controller="Admin" asp-action="TeacherEdit" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="TeacherId" value=@Model.Id />
+    <div class="row">
+        <div class="col-md-8">
+            @*Buraya Teacher bilgileri gelecek*@
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="FirstName"></label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" asp-for="FirstName" />
+                </div>
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="LastName"></label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" asp-for="LastName" />
+                </div>
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="Location"></label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" asp-for="Location" />
+                </div>
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="HourlyPrice"></label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" asp-for="HourlyPrice" />
+                </div>
+                <span asp-validation-for="HourlyPrice" class="text-danger"></span>
+            </div>
+
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="Description"></label>
+                </div>
+                <div class="col-md-10">
+                    <textarea name="About" asp-for="Description"> </textarea>
+                </div>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="Image">Image</label>
+                </div>
+
+
+                <div class="col-md-10">
+                    <img id="imgViewer" src="~/images/@Model.Image" width="200px" />
+                    <input class="d-none" type="file" name="file" id="formFile" accept="image/" />
+                    <div>
+                        <label class="btn btn-light" for="formFile">Upload Image</label>
+                        <label id="imageUrl">@Model.Image</label>
+                    </div>
+                </div>
+                <span class="text-danger">@ViewBag.ImageErrorMessage</span>
+
+            </div>
+
+            <div class="form-group row mb-2">
+                <div class="col-md-10 offset-2">
+                    <button class="btn btn-success" type="submit">Save Changes</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4">
+
+            <h5>Educatin Level</h5>
+            <br />
+
+            @foreach (var educationLevel in (List<StateOfEducationsLevel>)ViewBag.EducationLevels)
+            {
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox"
+                       class="form-check-input"
+                       value="@educationLevel.StateOfEducationsLevelId"
+                       name="educationLevelId"
+                       @if (Model.EducationLevelId!=null)
+                       {
+                       @(Model.EducationLevelId == educationLevel.StateOfEducationsLevelId ? "checked" : "")
+                       } />
+
+
+
+
+                    <label class="custom-control-label">@educationLevel.Name</label>
+                </div>
+            }
+         
+            <hr />
+
+        </div>
+    </div>
+</form>
+
+
+<script>
+    let formFile = document.getElementById("formFile");
+    let imgViewer = document.getElementById("imgViewer");
+    let imgUrl = document.getElementById("imageUrl");
+
+    formFile.addEventListener("change", function (event) {
+        let files = event.target.files;
+        imgViewer.setAttribute("src", window.URL.createObjectURL(files[0]));
+        imgUrl.innerText = imgViewer.getAttribute("src");
+    });
+</script>

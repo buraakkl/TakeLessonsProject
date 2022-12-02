@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model TeacherViewModel
+
+<div class="row">
+    <div class="col-3">
+
+        @await Component.InvokeAsync("CategorizedTeachers")
+        @*Bu componenti eğitim seviyelerini listelemek için yaptım.*@
+
+    </div>
+    <div class="col-9">
+        @*Bu kısımda öğretmenler listelenecek eğer öğretmen yoksa bunu kullanıcıya bildirecek.*@
+        @if (Model.Teachers.Count == 0)
+        {
+            <partial name="_NoTeacher" />
+        }
+        else
+        {
+            <div class="row">
+                @foreach (var teacher in Model.Teachers)
+                {
+                    <partial name="_Teacher" model="teacher" />
+                }
+            </div>
+        }
+    </div>
+</div>
+
+
